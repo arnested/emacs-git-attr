@@ -60,6 +60,7 @@
       (read-only-mode 1)
     (read-only-mode 0)))
 
+;;;###autoload
 (defun git-attr-linguist ()
   "Make vendored and generated files read only."
   (when (git-attr-linguist-generated-p)
