@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2018  Arne Jørgensen
 ;; URL: https://github.com/arnested/emacs-git-attr
-;; Version: 0.0.1
+;; Version: v0.0.2
 ;; Package-Requires: ((emacs "24.3"))
 
 ;; Author: Arne Jørgensen <arne@arnested.dk>
