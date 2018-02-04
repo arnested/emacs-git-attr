@@ -40,7 +40,7 @@
 
 ;;; Code:
 
-(defvar-local git-attr 'undecided "Git attributtes for current buffer.")
+(defvar-local git-attr 'undecided "Git attributes for current buffer.")
 
 (defun git-attr-check ()
   "Get git attributes for current buffer file."
