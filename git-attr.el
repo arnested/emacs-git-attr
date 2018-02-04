@@ -59,6 +59,7 @@
           (setq attr-list (cdddr attr-list)))
         result))))
 
+;;;###autoload
 (defun git-attr ()
   "Get git attributes for current buffer file and set in buffer local variable `git-attr'."
   (interactive)
@@ -74,6 +75,7 @@ This is the raw value as returned from `git check-attr -a' (if specified).
 You probably want to use `git-attr-get' instead."
   (cdr (assoc attr (git-attr))))
 
+;;;###autoload
 (defun git-attr-get (attr)
   "Get the git attribute named ATTR for the file in current buffer.
 
