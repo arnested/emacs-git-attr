@@ -47,7 +47,8 @@
   (let ((file buffer-file-name)
         (git (executable-find "git")))
     (when (and file
-               git)
+               git
+               (file-exists-p file))
       (let ((attr-list (split-string (with-output-to-string
                                        (with-current-buffer standard-output
                                          (call-process git nil (list t nil) nil "check-attr" "-z" "-a" file)
