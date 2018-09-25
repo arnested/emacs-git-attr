@@ -1,3 +1,6 @@
+[![MELPA Stable](https://stable.melpa.org/packages/git-attr-badge.svg)](https://stable.melpa.org/#/git-attr)
+[![MELPA](https://melpa.org/packages/git-attr-badge.svg)](https://melpa.org/#/git-attr)
+
 # Expose gitattributes to emacs buffers
 
 This tool will let you use [git attributes](https://git-scm.com/docs/gitattributes) in Emacs buffers.
