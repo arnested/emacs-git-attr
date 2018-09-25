@@ -56,8 +56,8 @@
                                        ) "\000" t))
             result)
         (while attr-list
-          (push `(,(cadr attr-list) . ,(caddr attr-list)) result)
-          (setq attr-list (cdddr attr-list)))
+          (push `(,(car (cdr attr-list)) . ,(car (cdr (cdr attr-list)))) result)
+          (setq attr-list (cdr (cdr (cdr attr-list)))))
         result))))
 
 ;;;###autoload
